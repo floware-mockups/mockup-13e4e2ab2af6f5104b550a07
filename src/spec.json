@@ -1,0 +1,276 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde",
+  "description": "Prototipo navigabile per registrare, filtrare e seguire le richieste di manutenzione del verde pubblico per quartiere e priorità. Tutti i dati sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Quadro operativo delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Chiuse questo mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "VR-2501",
+          "Lume",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Alta",
+          "Aperta",
+          "12/05/2026"
+        ],
+        [
+          "VR-2502",
+          "Vela",
+          "Parco delle Sorgenti",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione",
+          "13/05/2026"
+        ],
+        [
+          "VR-2503",
+          "Nubi",
+          "Viale dei Tigli Chiari",
+          "Rimozione ramo caduto",
+          "Alta",
+          "In lavorazione",
+          "13/05/2026"
+        ],
+        [
+          "VR-2504",
+          "Lume",
+          "Aiola del Ponte Quieto",
+          "Sostituzione piante",
+          "Bassa",
+          "Aperta",
+          "14/05/2026"
+        ],
+        [
+          "VR-2505",
+          "Brina",
+          "Parco delle Rondini",
+          "Sfalcio erba",
+          "Media",
+          "Aperta",
+          "14/05/2026"
+        ],
+        [
+          "VR-2506",
+          "Vela",
+          "Giardino dei Sassi Blu",
+          "Controllo impianto irriguo",
+          "Bassa",
+          "Chiusa",
+          "15/05/2026"
+        ]
+      ],
+      "form": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ]
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile delle segnalazioni, con ricerca per codice, area o intervento e filtri per quartiere, priorità e stato.",
+      "metrics": [
+        {
+          "label": "Richieste totali",
+          "value": "18"
+        },
+        {
+          "label": "Quartieri coinvolti",
+          "value": "4"
+        },
+        {
+          "label": "Da assegnare",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "VR-2501",
+          "Lume",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Alta",
+          "Aperta",
+          "12/05/2026"
+        ],
+        [
+          "VR-2502",
+          "Vela",
+          "Parco delle Sorgenti",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione",
+          "13/05/2026"
+        ],
+        [
+          "VR-2503",
+          "Nubi",
+          "Viale dei Tigli Chiari",
+          "Rimozione ramo caduto",
+          "Alta",
+          "In lavorazione",
+          "13/05/2026"
+        ],
+        [
+          "VR-2504",
+          "Lume",
+          "Aiola del Ponte Quieto",
+          "Sostituzione piante",
+          "Bassa",
+          "Aperta",
+          "14/05/2026"
+        ],
+        [
+          "VR-2505",
+          "Brina",
+          "Parco delle Rondini",
+          "Sfalcio erba",
+          "Media",
+          "Aperta",
+          "14/05/2026"
+        ],
+        [
+          "VR-2506",
+          "Vela",
+          "Giardino dei Sassi Blu",
+          "Controllo impianto irriguo",
+          "Bassa",
+          "Chiusa",
+          "15/05/2026"
+        ],
+        [
+          "VR-2507",
+          "Nubi",
+          "Boschetto della Nebbia",
+          "Raccolta foglie",
+          "Bassa",
+          "Aperta",
+          "15/05/2026"
+        ],
+        [
+          "VR-2508",
+          "Brina",
+          "Piazza dei Gelsi",
+          "Potatura siepe",
+          "Media",
+          "In lavorazione",
+          "16/05/2026"
+        ],
+        [
+          "VR-2509",
+          "Lume",
+          "Parco delle Vele Verdi",
+          "Ripristino panchina e aiuola",
+          "Media",
+          "Aperta",
+          "16/05/2026"
+        ],
+        [
+          "VR-2510",
+          "Vela",
+          "Sentiero delle Felci",
+          "Rimozione ramo caduto",
+          "Alta",
+          "Aperta",
+          "17/05/2026"
+        ],
+        [
+          "VR-2511",
+          "Nubi",
+          "Giardino dei Papaveri",
+          "Sfalcio erba",
+          "Bassa",
+          "Chiusa",
+          "17/05/2026"
+        ],
+        [
+          "VR-2512",
+          "Brina",
+          "Parco del Mulino Nuovo",
+          "Riparazione irrigazione",
+          "Alta",
+          "In lavorazione",
+          "18/05/2026"
+        ]
+      ],
+      "form": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Inserimento di una segnalazione di manutenzione. La priorità e lo stato possono essere selezionati dal modulo.",
+      "metrics": [],
+      "columns": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [],
+      "form": [
+        "Codice richiesta",
+        "Quartiere",
+        "Area verde",
+        "Intervento richiesto",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ]
+    }
+  ]
+}
